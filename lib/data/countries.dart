@@ -1,0 +1,25 @@
+import '../models/country.dart';
+
+final List<Country> countries = [
+  Country(name: 'India', timezone: 'Asia/Kolkata', flagUrl: 'https://flagcdn.com/w160/in.png'),
+  Country(name: 'United Kingdom', timezone: 'Europe/London', flagUrl: 'https://flagcdn.com/w160/gb.png'),
+  Country(name: 'United States (New York)', timezone: 'America/New_York', flagUrl: 'https://flagcdn.com/w160/us.png'),
+  Country(name: 'United States (Los Angeles)', timezone: 'America/Los_Angeles', flagUrl: 'https://flagcdn.com/w160/us.png'),
+  Country(name: 'Japan', timezone: 'Asia/Tokyo', flagUrl: 'https://flagcdn.com/w160/jp.png'),
+  Country(name: 'Australia (Sydney)', timezone: 'Australia/Sydney', flagUrl: 'https://flagcdn.com/w160/au.png'),
+  Country(name: 'China', timezone: 'Asia/Shanghai', flagUrl: 'https://flagcdn.com/w160/cn.png'),
+  Country(name: 'Russia (Moscow)', timezone: 'Europe/Moscow', flagUrl: 'https://flagcdn.com/w160/ru.png'),
+  Country(name: 'Germany', timezone: 'Europe/Berlin', flagUrl: 'https://flagcdn.com/w160/de.png'),
+  Country(name: 'France', timezone: 'Europe/Paris', flagUrl: 'https://flagcdn.com/w160/fr.png'),
+  Country(name: 'Brazil', timezone: 'America/Sao_Paulo', flagUrl: 'https://flagcdn.com/w160/br.png'),
+  Country(name: 'South Africa', timezone: 'Africa/Johannesburg', flagUrl: 'https://flagcdn.com/w160/za.png'),
+  Country(name: 'Egypt', timezone: 'Africa/Cairo', flagUrl: 'https://flagcdn.com/w160/eg.png'),
+  Country(name: 'Turkey', timezone: 'Europe/Istanbul', flagUrl: 'https://flagcdn.com/w160/tr.png'),
+  Country(name: 'UAE (Dubai)', timezone: 'Asia/Dubai', flagUrl: 'https://flagcdn.com/w160/ae.png'),
+  Country(name: 'Canada (Toronto)', timezone: 'America/Toronto', flagUrl: 'https://flagcdn.com/w160/ca.png'),
+  Country(name: 'Mexico', timezone: 'America/Mexico_City', flagUrl: 'https://flagcdn.com/w160/mx.png'),
+  Country(name: 'Argentina', timezone: 'America/Argentina/Buenos_Aires', flagUrl: 'https://flagcdn.com/w160/ar.png'),
+  Country(name: 'Indonesia', timezone: 'Asia/Jakarta', flagUrl: 'https://flagcdn.com/w160/id.png'),
+  Country(name: 'Singapore', timezone: 'Asia/Singapore', flagUrl: 'https://flagcdn.com/w160/sg.png'),
+  Country(name: 'New Zealand', timezone: 'Pacific/Auckland', flagUrl: 'https://flagcdn.com/w160/nz.png'),
+];
